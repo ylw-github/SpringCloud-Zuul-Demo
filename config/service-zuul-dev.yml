@@ -1,0 +1,11 @@
+### 配置网关反向代理
+zuul:
+  routes:
+    api-a:
+      ### 以 /api-a/访问转发到a服务
+      path: /api-a/**
+      serviceId: app-service-a
+    api-b:
+      ### 以 /api-b/访问转发到b服务
+      path: /api-b/**
+      serviceId: app-service-b
