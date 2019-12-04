@@ -36,7 +36,7 @@ management:
 #      serviceId: app-service-a
 #    api-b:
 #      ### 以 /api-b/
-#      path: //**
+#      path: /api-b/**
 #      serviceId: app-service-b
 
 ##Zuul整合Ribbon

@@ -17,3 +17,5 @@ eureka:
     ###是否需要从eureka上获取注册信息
     fetch-registry: true
 
+swagger:
+  base-package: com.ylw.springcloud.eureka.a
